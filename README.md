@@ -1,2 +1,0 @@
-# fyksshop
-Store, shop
