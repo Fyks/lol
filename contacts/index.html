@@ -36,20 +36,7 @@
 
 
 
-    <script>
-        partytown = {
-            lib: '/partytown/',
-            forward: ['ym', 'dataLayer.push'],
-            resolveUrl: (url) => {
-                if (`${url.host}${url.pathname}` === 'www.google-analytics.com/analytics.js') {
-                    return new URL(`${location.origin}/partytown/google-analytics.js`)
-                }
-
-                return url
-            }
-        }
-    </script>
-    <script></script>
+  
 </head>
 <body class="sb-body sb-body_with-footer font-jost-pt-root-ui sb-content-size_m sb-buttons-border_round">
     <div class="site-wrapper" tabindex="0">
@@ -73,7 +60,8 @@
                             <div class="sb-background sb-background" style="background: #333333;">
                                 
                             </div>
-                            <a href="index.html" class="s-services-type-1__button s-header-type-1__button sb-button-secondary sb-button-scheme-white sb-button-type_filled" style="background-color: #574B90"> Контакты </a>
+                            <a href="index.html"   class="s-services-type-1__button s-header-type-1__button sb-button-secondary sb-button-scheme-white sb-button-type_filled" style="font-weight: bold; font-family: Papyrus, Verdana, fantasy; font-size: 18px; background-color: #574B90"   >   Контакты   
+                         </a>
                         </nav>
                     </div>
                 </div>
