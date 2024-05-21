@@ -37,20 +37,7 @@
 
 
 
-    <script>
-        partytown = {
-            lib: '/partytown/',
-            forward: ['ym', 'dataLayer.push'],
-            resolveUrl: (url) => {
-                if (`${url.host}${url.pathname}` === 'www.google-analytics.com/analytics.js') {
-                    return new URL(`${location.origin}/partytown/google-analytics.js`)
-                }
-
-                return url
-            }
-        }
-    </script>
-    <script></script>
+    
 </head>
 
 <body class="sb-body sb-body_with-footer  font-jost-pt-root-ui sb-content-size_m sb-buttons-border_round">
