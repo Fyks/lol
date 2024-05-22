@@ -23,11 +23,20 @@
     padding-right: 20px
   }
 }
-
+@media screen and (max-width:1359px){
 .s-services-type-1__item{
-  display: flex;
-  width: 100%
+ 
+  scale: 50%
 }
+}
+
+@media screen and (min-width:1360px){
+.s-services-type-1__item{
+ 
+  scale: 85%
+}
+}
+
 
 .s-services-type-1__item-content{
   position: relative;
@@ -63,7 +72,7 @@
   min-width: 120px
 }
 
-.s-services-type-1__price+.s-services-type-1__button{
+.s-services-type-1__price+{
   min-width: 100px;
   margin-left: 10px
 }
